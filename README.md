@@ -1,49 +1,71 @@
-Abu Dhabi Aerospace Operations Dashboard (Power BI)
- Overview
+Abu Dhabi Aerospace Supply Chain Management (SCM) Dashboard
 
-This project delivers an interactive Power BI analytics dashboard built for an Abu Dhabi–based aerospace organization. It provides operational insights, automated data processing, and optimized data modeling to support data-driven decision-making.
+Power BI | Power Query | DAX | SQL
 
- Key Contributions
+Overview
 
-Designed and deployed a real-time operational KPI dashboard improving decision-making efficiency by 25%.
+This project presents an end-to-end Supply Chain Management (SCM) analytics dashboard developed in Power BI for an Abu Dhabi–based aerospace organization. The dashboard provides real-time visibility into procurement, supplier performance, purchase orders, inventory flow, and supply chain KPIs, enabling data-driven decision-making across SCM teams.
 
-Automated data cleaning and transformation using Power Query, reducing manual effort by 35%.
+The solution focuses on automated ETL, optimized data modeling, and interactive reporting, reflecting enterprise-level supply chain analytics practices.
 
-Developed Star and Snowflake schema models, enhancing query and report performance by 40%.
+Key Contributions
 
-Created drill-down visuals, dynamic filters, and DAX-driven insights for improved user interaction.
+Designed and deployed an interactive SCM dashboard delivering real-time insights into procurement and supplier performance, improving decision-making efficiency by 25%.
 
+Automated data extraction, cleaning, and transformation using Power Query, processing 1,300+ supply chain records and reducing manual reporting effort by 35%.
 
- Tools & Technologies
+Built an optimized Star Schema with a central Purchase Order fact table connected to Supplier, Date, Status, and Item dimensions, improving report and query performance by 40%.
+
+Developed 15+ DAX measures including PO status, monthly PO trends, supplier-wise performance, quantities, visits, and repair cost metrics.
+
+Enhanced dashboard usability with drill-through pages, dynamic slicers, and advanced visuals, enabling granular supply chain analysis.
+
+Tools & Technologies
 
 Power BI Desktop
 
-Power Query (M language)
+Power Query (M Language)
 
 DAX
 
 SQL
 
-Data Modeling (Star/Snowflake)
+Data Modeling (Star & Snowflake Schemas)
 
- Features
+Dashboard Features
 
-Real-time KPI tracking with interactive slicers
+Real-time Supply Chain KPIs with interactive slicers
 
-Department-level performance dashboards
+Procurement and supplier performance dashboards
 
-Trend analysis and operational bottleneck identification
+Purchase Order lifecycle tracking and trend analysis
 
-Automated ETL pipelines inside Power BI
+Inventory and quantity flow insights
 
-Consistent formatting and standardized visuals for enterprise reporting
+Automated ETL pipelines within Power BI
 
- How to Use
+Consistent, enterprise-grade visual design and formatting
 
-Download the .pbix file.
+Data Modeling
 
-Open using Power BI Desktop (latest version).
+Fact Table: Purchase Orders
 
-Refresh the data source (if applicable).
+Dimension Tables: Supplier, Date, Item, Status
 
-Use built-in navigation and filters to explore insights.
+One-to-many relationships for scalable SCM analytics
+
+Optimized schema design to support fast refresh and reporting
+
+How to Use
+
+Download the .pbix file from this repository.
+
+Open it using Power BI Desktop (latest version).
+
+Refresh the data source if applicable.
+
+Use built-in filters, slicers, and drill-through pages to explore SCM insights.
+
+Business Impact
+
+This SCM dashboard demonstrates how data modeling, automated ETL, and interactive analytics can improve supply chain visibility, procurement efficiency, and supplier monitoring in an aerospace environment.
